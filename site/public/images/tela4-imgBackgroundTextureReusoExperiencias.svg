@@ -1,0 +1,24 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="1440" height="860" viewBox="0 0 1440 860" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Background texture / Reuso Experi&#195;&#170;ncias" opacity="0.38" clip-path="url(#clip0_0_77)">
+<g id="Group" opacity="0.17">
+<path id="Vector" d="M-10 297.692V396.923H44V317.538H10V377.077H27V339.038" stroke="#071925" stroke-width="8"/>
+<path id="Vector_2" d="M-10 405.192V504.423H44V425.038H10V484.577H27V446.538" stroke="#071925" stroke-width="8"/>
+<path id="Vector_3" d="M1396 297.692V396.923H1450V317.538H1416V377.077H1433V339.038" stroke="#071925" stroke-width="8"/>
+<path id="Vector_4" d="M1396 405.192V504.423H1450V425.038H1416V484.577H1433V446.538" stroke="#071925" stroke-width="8"/>
+</g>
+<g id="Group_2" opacity="0.22">
+<path id="Vector_5" d="M-5 797.154C38 755.808 81 755.808 124 797.154C167 838.5 210 838.5 253 797.154C296 755.808 339 755.808 382 797.154C425 838.5 468 838.5 511 797.154" stroke="#0E6172" stroke-width="7"/>
+<path id="Vector_6" d="M-5 797.154C38 838.5 81 838.5 124 797.154C167 755.808 210 755.808 253 797.154C296 838.5 339 838.5 382 797.154C425 755.808 468 755.808 511 797.154" stroke="#0E6172" stroke-width="7"/>
+<path id="Vector_7" d="M509 797.154C552 755.808 595 755.808 638 797.154C681 838.5 724 838.5 767 797.154C810 755.808 853 755.808 896 797.154C939 838.5 982 838.5 1025 797.154" stroke="#0E6172" stroke-width="7"/>
+<path id="Vector_8" d="M509 797.154C552 838.5 595 838.5 638 797.154C681 755.808 724 755.808 767 797.154C810 838.5 853 838.5 896 797.154C939 755.808 982 755.808 1025 797.154" stroke="#0E6172" stroke-width="7"/>
+<path id="Vector_9" d="M1023 797.154C1066 755.808 1109 755.808 1152 797.154C1195 838.5 1238 838.5 1281 797.154C1324 755.808 1367 755.808 1410 797.154C1453 838.5 1496 838.5 1539 797.154" stroke="#0E6172" stroke-width="7"/>
+<path id="Vector_10" d="M1023 797.154C1066 838.5 1109 838.5 1152 797.154C1195 755.808 1238 755.808 1281 797.154C1324 838.5 1367 838.5 1410 797.154C1453 755.808 1496 755.808 1539 797.154" stroke="#0E6172" stroke-width="7"/>
+</g>
+<path id="Vector_11" opacity="0.16" d="M0 764.904H1440M0 849.25H1440" stroke="#071925" stroke-width="3"/>
+</g>
+<defs>
+<clipPath id="clip0_0_77">
+<rect width="1440" height="860" fill="white"/>
+</clipPath>
+</defs>
+</svg>

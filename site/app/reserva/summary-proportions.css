@@ -1,0 +1,15 @@
+.booking-page .booking-summary{padding:clamp(24px,2.2222vw,32px)}
+.booking-summary>*{flex-shrink:0}
+.booking-summary h2{font-size:clamp(30px,2.6389vw,38px);margin-top:16px}
+.booking-summary dl{margin-top:24px}
+.booking-summary dl>div+div{margin-top:20px}
+.booking-summary dd{margin-top:8px}
+.booking-summary .booking-summary-extras{min-height:34px;line-height:1.4}
+.booking-summary .total-row{margin-top:16px;padding-top:16px;margin-bottom:20px}
+.booking-summary .total-row strong{line-height:1}
+.booking-page .booking-summary .booking-continue,.booking-page .booking-summary .booking-confirm{margin-top:auto;height:clamp(60px,4.8611vw,70px)}
+@media(max-width:767px){.booking-page .booking-summary .booking-continue,.booking-page .booking-summary .booking-confirm{margin-top:24px}}
+.booking-page .booking-layout{grid-template-columns:minmax(0,820fr) minmax(0,432fr)}
+.booking-page .booking-panel,.booking-page .booking-summary{min-width:0}
+@media(min-width:768px){.booking-page .booking-summary{min-height:570px;align-self:stretch}}
+@media(max-width:767px){.booking-page .booking-layout{grid-template-columns:minmax(0,1fr)}}

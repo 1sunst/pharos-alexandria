@@ -1,0 +1,29 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="396" height="396" viewBox="0 0 396 396" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>
+.compass-rotate{transform-origin:198px 198px;animation:compass-orbit 65s linear infinite}
+.compass-inner{transform-origin:198px 198px;animation:compass-orbit 85s linear infinite reverse}
+.compass-bob{animation:compass-float 7s ease-in-out infinite}
+.compass-dotted{transform-origin:198px 198px;animation:compass-orbit 65s linear infinite reverse}
+.compass-grey-lines{animation:compass-line-float 8s ease-in-out infinite}
+@keyframes compass-line-float{0%,100%{transform:translateY(-2px)}50%{transform:translateY(3px)}}
+@keyframes compass-orbit{to{transform:rotate(360deg)}}
+@keyframes compass-float{0%,100%{transform:translateY(0)}50%{transform:translateY(2px)}}
+@media(prefers-reduced-motion:reduce){.compass-rotate,.compass-inner,.compass-bob,.compass-dotted,.compass-grey-lines{animation:none}}
+</style>
+<g id="Group"><g class="compass-rotate">
+<path id="Vector" d="M36 117C46.7571 95.2777 61.77 75.9389 80.1472 60.1322C98.5243 44.3255 119.891 32.3733 142.977 24.9856C166.064 17.5978 190.4 14.9253 214.54 17.1266C238.679 19.3279 262.13 26.3583 283.5 37.8" stroke="#35C9D0" stroke-width="2" stroke-linecap="round"/>
+<path id="Vector_2" d="M360 279C349.243 300.722 334.23 320.061 315.853 335.868C297.476 351.675 276.109 363.627 253.023 371.014C229.936 378.402 205.6 381.075 181.46 378.873C157.321 376.672 133.87 369.642 112.5 358.2" stroke="#35C9D0" stroke-width="2" stroke-linecap="round"/>
+</g><g class="compass-dotted"><path id="Vector_3" d="M82.8 82.8C97.9271 67.6696 115.887 55.6674 135.653 47.4787C155.419 39.2901 176.605 35.0754 198 35.0754C219.395 35.0754 240.581 39.2901 260.347 47.4787C280.113 55.6674 298.073 67.6696 313.2 82.8" stroke="#F0B52E" stroke-width="1.5" stroke-dasharray="2 9"/>
+<path id="Vector_4" d="M313.2 313.2C298.073 328.33 280.113 340.333 260.347 348.521C240.581 356.71 219.395 360.925 198 360.925C176.605 360.925 155.419 356.71 135.653 348.521C115.887 340.333 97.9271 328.33 82.8 313.2" stroke="#F0B52E" stroke-width="1.5" stroke-dasharray="2 9"/>
+</g><g class="compass-bob"><path id="Vector_5" d="M198 0L207.9 105.3L198 89.1L188.1 105.3L198 0Z" fill="#F0B52E"/>
+<path id="Vector_6" d="M198 396L207.9 290.7L198 306.9L188.1 290.7L198 396Z" fill="#0E6172"/>
+<path id="Vector_7" d="M396 198L290.7 207.9L306.9 198L290.7 188.1L396 198Z" fill="#35C9D0"/>
+<path id="Vector_8" d="M0 198L105.3 207.9L89.1 198L105.3 188.1L0 198Z" fill="#F4E8C8"/>
+</g><g class="compass-inner"><path id="Vector_9" opacity="0.23" d="M198 298.8C253.67 298.8 298.8 253.67 298.8 198C298.8 142.33 253.67 97.2 198 97.2C142.33 97.2 97.2 142.33 97.2 198C97.2 253.67 142.33 298.8 198 298.8Z" stroke="#F4E8C8"/>
+<path id="Vector_10" d="M198 258.3C231.303 258.3 258.3 231.303 258.3 198C258.3 164.697 231.303 137.7 198 137.7C164.697 137.7 137.7 164.697 137.7 198C137.7 231.303 164.697 258.3 198 258.3Z" stroke="#F0B52E" stroke-width="2"/>
+<path id="Vector_11" d="M198 238.5C220.368 238.5 238.5 220.368 238.5 198C238.5 175.632 220.368 157.5 198 157.5C175.632 157.5 157.5 175.632 157.5 198C157.5 220.368 175.632 238.5 198 238.5Z" stroke="#35C9D0" stroke-dasharray="1 7"/>
+</g><g class="compass-grey-lines"><path id="Vector_12" opacity="0.7" d="M46.8 46.8L94.5 94.5M349.2 46.8L301.5 94.5M349.2 349.2L301.5 301.5M46.8 349.2L94.5 301.5" stroke="#F4E8C8" stroke-width="1.5" stroke-linecap="round"/>
+</g><g class="compass-rotate"><path id="Vector_13" d="M36 121.5C38.4853 121.5 40.5 119.485 40.5 117C40.5 114.515 38.4853 112.5 36 112.5C33.5147 112.5 31.5 114.515 31.5 117C31.5 119.485 33.5147 121.5 36 121.5Z" fill="#35C9D0"/>
+<path id="Vector_14" d="M360 283.5C362.485 283.5 364.5 281.485 364.5 279C364.5 276.515 362.485 274.5 360 274.5C357.515 274.5 355.5 276.515 355.5 279C355.5 281.485 357.515 283.5 360 283.5Z" fill="#F0B52E"/>
+</g>
+</g></svg>

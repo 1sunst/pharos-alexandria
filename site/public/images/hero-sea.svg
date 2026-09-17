@@ -1,0 +1,25 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="1440" height="240" viewBox="0 0 1440 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Night sea" clip-path="url(#clip0_0_125)">
+<path id="Vector" d="M0 95C180 70 330 146 510 112C720 72 820 44 1010 103C1180 156 1310 150 1440 109V240H0V95Z" fill="#0E6172"/>
+<path id="Vector_2" d="M0 130C190 101 320 172 530 139C748 105 890 80 1080 136C1205 173 1324 168 1440 138" stroke="#35C9D0" stroke-width="2"/>
+<g id="Group" opacity="0.2">
+<path id="Vector_3" d="M0 162H120V216H24V182H96V199H50" stroke="#071925" stroke-width="8"/>
+<path id="Vector_4" d="M120 162H240V216H144V182H216V199H170" stroke="#071925" stroke-width="8"/>
+<path id="Vector_5" d="M240 162H360V216H264V182H336V199H290" stroke="#071925" stroke-width="8"/>
+<path id="Vector_6" d="M360 162H480V216H384V182H456V199H410" stroke="#071925" stroke-width="8"/>
+<path id="Vector_7" d="M480 162H600V216H504V182H576V199H530" stroke="#071925" stroke-width="8"/>
+<path id="Vector_8" d="M600 162H720V216H624V182H696V199H650" stroke="#071925" stroke-width="8"/>
+<path id="Vector_9" d="M720 162H840V216H744V182H816V199H770" stroke="#071925" stroke-width="8"/>
+<path id="Vector_10" d="M840 162H960V216H864V182H936V199H890" stroke="#071925" stroke-width="8"/>
+<path id="Vector_11" d="M960 162H1080V216H984V182H1056V199H1010" stroke="#071925" stroke-width="8"/>
+<path id="Vector_12" d="M1080 162H1200V216H1104V182H1176V199H1130" stroke="#071925" stroke-width="8"/>
+<path id="Vector_13" d="M1200 162H1320V216H1224V182H1296V199H1250" stroke="#071925" stroke-width="8"/>
+<path id="Vector_14" d="M1320 162H1440V216H1344V182H1416V199H1370" stroke="#071925" stroke-width="8"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_0_125">
+<rect width="1440" height="240" fill="white"/>
+</clipPath>
+</defs>
+</svg>

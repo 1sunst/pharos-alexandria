@@ -1,0 +1,24 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="1440" height="1040" viewBox="0 0 1440 1040" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Background texture / Experi&#195;&#170;ncias" clip-path="url(#clip0_0_61)">
+<g id="Group" opacity="0.17">
+<path id="Vector" d="M-10 360V480H44V384H10V456H27V410" stroke="#071925" stroke-width="8"/>
+<path id="Vector_2" d="M-10 490V610H44V514H10V586H27V540" stroke="#071925" stroke-width="8"/>
+<path id="Vector_3" d="M1396 360V480H1450V384H1416V456H1433V410" stroke="#071925" stroke-width="8"/>
+<path id="Vector_4" d="M1396 490V610H1450V514H1416V586H1433V540" stroke="#071925" stroke-width="8"/>
+</g>
+<g id="Group_2" opacity="0.22">
+<path id="Vector_5" d="M-5 964C38 914 81 914 124 964C167 1014 210 1014 253 964C296 914 339 914 382 964C425 1014 468 1014 511 964" stroke="#0E6172" stroke-width="7"/>
+<path id="Vector_6" d="M-5 964C38 1014 81 1014 124 964C167 914 210 914 253 964C296 1014 339 1014 382 964C425 914 468 914 511 964" stroke="#0E6172" stroke-width="7"/>
+<path id="Vector_7" d="M509 964C552 914 595 914 638 964C681 1014 724 1014 767 964C810 914 853 914 896 964C939 1014 982 1014 1025 964" stroke="#0E6172" stroke-width="7"/>
+<path id="Vector_8" d="M509 964C552 1014 595 1014 638 964C681 914 724 914 767 964C810 1014 853 1014 896 964C939 914 982 914 1025 964" stroke="#0E6172" stroke-width="7"/>
+<path id="Vector_9" d="M1023 964C1066 914 1109 914 1152 964C1195 1014 1238 1014 1281 964C1324 914 1367 914 1410 964C1453 1014 1496 1014 1539 964" stroke="#0E6172" stroke-width="7"/>
+<path id="Vector_10" d="M1023 964C1066 1014 1109 1014 1152 964C1195 914 1238 914 1281 964C1324 1014 1367 1014 1410 964C1453 914 1496 914 1539 964" stroke="#0E6172" stroke-width="7"/>
+</g>
+<path id="Vector_11" opacity="0.16" d="M0 925H1440M0 1027H1440" stroke="#071925" stroke-width="3"/>
+</g>
+<defs>
+<clipPath id="clip0_0_61">
+<rect width="1440" height="1040" fill="white"/>
+</clipPath>
+</defs>
+</svg>

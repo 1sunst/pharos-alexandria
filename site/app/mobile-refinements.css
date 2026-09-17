@@ -1,0 +1,69 @@
+/* Mobile-only simplification; desktop geometry remains unchanged. */
+.xp-mobile-price{display:none}
+@media(max-width:767px){
+ body .xp-mobile-price{display:inline}
+ body .hero-scroll{display:none}
+ body .home-hero{height:750px}
+ body .home-hero .hero-primary{top:120px}
+ body .home-hero .hero-tower{top:auto;bottom:-25px;width:270px;height:432px}
+ body .home-hero .hero-light-art{top:256px;bottom:auto}
+ body .home-hero .hero-moon{top:275px;width:320px;height:320px}
+ body .home-hero .hero-secondary{display:none}
+ body .section-art,body .map-art,body .home-explore-entrance-texture,
+ body .history-art,body .history-texture-opacity,body .adaptation-art,
+ body .xp-texture,body .detail-texture,body .detail-route-textures,
+ body .booking-texture,body .booking-extras-texture,
+ body .home-original-frame,body .ornamental-frame,body .confirmation-frame{display:none!important}
+ body .history-ending-photo,body .xp-ending-photo,body .detail-ending-photo{display:none!important}
+ body .history-hero-photo,body .xp-hero-photo,body .architecture-photo,
+ body .discovery-images figure,body .rebuild-columns>div>img,
+ body .home-carousel-frame,body .detail-gallery-image,
+ body .home-card-image,body .xp-card-photo{
+  width:100%;height:260px!important;min-height:0;max-height:none;aspect-ratio:auto!important;border-radius:16px;object-fit:cover
+ }
+ body .history-hero-photo img,body .xp-hero-photo img,body .architecture-photo img{
+  position:absolute;inset:0;width:100%;height:100%;max-width:none;object-fit:cover;transform:none
+ }
+ body .xp-wave{top:168px;height:92px;pointer-events:none}
+ body .home-card-image,body .xp-card-photo{border-radius:0}
+ body .home-card,body .xp-card{flex:0 0 84vw;width:84vw;min-width:0;max-width:none;height:560px!important;min-height:0;display:flex;flex-direction:column;background:var(--navy);border-radius:16px;overflow:hidden}
+ body .home-card-image,body .xp-card-photo{flex-shrink:0;display:block}
+ body .home-card-copy,body .xp-card-copy{height:auto;flex:1;min-height:0;padding:20px;display:flex;flex-direction:column;gap:12px}
+ body .home-card-copy h3,body .xp-card h3{font-size:26px;line-height:1.1;margin:0}
+ body .home-card-copy p,body .xp-card p{font-size:14px;line-height:1.45;margin:0;min-height:0}
+ body .xp-card-copy>span,body .xp-price{display:none}
+ body .xp-meta{order:-1;margin:0;border:0;padding:0;font-size:11px;line-height:1.4}
+ body .xp-page .xp-card .xp-card-copy{padding:20px;gap:12px}
+ body .xp-page .xp-card h3{font-size:26px;line-height:1.1;margin:0}
+ body .xp-page .xp-card p{font-size:14px;line-height:1.45;margin:0;min-height:0}
+ body .xp-page .xp-card .xp-meta{margin:0;border:0;padding:0;font-size:11px;line-height:1.4}
+ body .xp-page .xp-card .button{position:static;align-self:flex-end;margin-top:auto;height:34px;min-width:0;padding:0 18px;flex-shrink:0;font-size:12px}
+ body .home-card-copy .button,body .xp-card .button{position:static;align-self:flex-end;margin-top:auto;height:34px;min-width:0;padding:0 18px;flex-shrink:0;font-size:12px}
+ body .xp-cards{width:calc(100vw - 20px);gap:16px;padding-right:40px}
+ body .xp-table-scroll{overflow-x:auto;overscroll-behavior-x:contain;-webkit-overflow-scrolling:touch;margin-top:36px;padding-bottom:12px}
+ body .xp-table{display:table;width:720px;min-width:720px;margin:0;border-collapse:collapse}
+ body .xp-table thead{display:table-header-group}
+ body .xp-table tbody{display:table-row-group}
+ body .xp-table tr{display:table-row;margin:0;padding:0;border:0}
+ body .xp-table th,body .xp-table td{display:table-cell;width:auto;height:64px;padding:18px 20px;vertical-align:middle;font-size:14px;border-top:1px solid #35c9d059}
+ body .xp-table th:first-child{width:280px!important}
+ body .xp-table thead th{font-size:12px;color:var(--sun);border-top:0}
+ body .xp-table td{text-align:center}
+ body .xp-table td:before{content:none}
+ /* A single row rule avoids doubled/fractional cell borders. */
+ body .xp-table tbody tr{background:linear-gradient(#35c9d059,#35c9d059) left top/100% 1px no-repeat}
+ body .xp-table tbody th,body .xp-table tbody td{border:0!important}
+ body .home-card-grid,body .xp-cards{
+  scroll-padding-inline:20px;overscroll-behavior-x:contain;
+ }
+ body .home-card,body .xp-card{scroll-snap-align:center;scroll-snap-stop:always}
+ body .mobile-menu{position:fixed;inset:0 0 0 20%;width:80%;height:100dvh;z-index:1000;padding:28px 24px;background:var(--navy);color:var(--sand);overflow-y:auto;overscroll-behavior:contain;transition:none;animation:mobile-menu-enter .3s cubic-bezier(.22,.61,.36,1) both;transform:none;opacity:1}
+ body .mobile-menu>button{display:block;margin-left:auto;border:0;background:none;color:var(--sand);font-size:32px;line-height:1;padding:8px;cursor:pointer}
+ body .mobile-menu nav{display:flex;flex-direction:column;gap:24px;margin-top:40px;font-family:"Cormorant Garamond",Georgia,serif}
+ body .mobile-menu nav a{display:block;font-size:28px;line-height:1.2;animation:none;transition:color .2s ease}
+ body .mobile-menu nav a:hover{color:var(--turquoise)}
+}
+@keyframes mobile-menu-enter{from{transform:translateX(100%);opacity:.7}to{transform:translateX(0);opacity:1}}
+@media(max-width:767px){body .mobile-menu.is-closing{animation:mobile-menu-exit .3s cubic-bezier(.22,.61,.36,1) both}}
+@keyframes mobile-menu-exit{from{transform:translateX(0);opacity:1}to{transform:translateX(100%);opacity:.7}}
+@media(prefers-reduced-motion:reduce){body .mobile-menu{animation:none}}

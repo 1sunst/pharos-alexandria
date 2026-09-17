@@ -1,0 +1,22 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="1440" height="1040" viewBox="0 0 1440 1040" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Background texture / Explore o Farol" clip-path="url(#clip0_0_101)">
+<g id="Vector">
+</g>
+<g id="Group" opacity="0.075">
+<path id="Vector_2" d="M-165 205C-74 113 18 113 109 205C200 297 292 297 383 205" stroke="#35C9D0" stroke-width="7" stroke-linecap="round"/>
+<path id="Vector_3" d="M-165 205C-74 297 18 297 109 205C200 113 292 113 383 205" stroke="#35C9D0" stroke-width="7" stroke-linecap="round"/>
+<path id="Vector_4" d="M1057 796C1148 704 1240 704 1331 796C1422 888 1514 888 1605 796" stroke="#35C9D0" stroke-width="7" stroke-linecap="round"/>
+<path id="Vector_5" d="M1057 796C1148 888 1240 888 1331 796C1422 704 1514 704 1605 796" stroke="#35C9D0" stroke-width="7" stroke-linecap="round"/>
+</g>
+<g id="Group_2" opacity="0.08">
+<path id="Vector_6" d="M-140 120H385M1055 881H1580" stroke="#F0B52E" stroke-width="2"/>
+<path id="Vector_7" d="M-140 290H385M1055 711H1580" stroke="#F0B52E" stroke-width="2"/>
+</g>
+<path id="Vector_8" opacity="0.08" d="M1396 244C1449.02 244 1492 201.019 1492 148C1492 94.9807 1449.02 52 1396 52C1342.98 52 1300 94.9807 1300 148C1300 201.019 1342.98 244 1396 244Z" stroke="#F4E8C8" stroke-dasharray="2 12"/>
+</g>
+<defs>
+<clipPath id="clip0_0_101">
+<rect width="1440" height="1040" fill="white"/>
+</clipPath>
+</defs>
+</svg>

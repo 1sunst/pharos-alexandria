@@ -1,0 +1,13 @@
+.reservation-unified [hidden]{display:none!important}
+.reservation-unified .booking-stepper li{position:relative;overflow:hidden;background:rgb(14 97 114/.25)}
+.booking-progress-fill{display:block;position:absolute;inset:0;background:var(--mediterranean);border-radius:inherit;transform-origin:left;transition:transform .6s cubic-bezier(.22,.61,.36,1)}
+.reservation-unified .booking-progress-fill{transition:none}
+.reservation-unified .booking-progress-entering{animation:booking-stage-fill .8s cubic-bezier(.22,.61,.36,1) .12s both}
+@keyframes booking-stage-fill{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+.reservation-unified .booking-step-4{background:var(--navy);color:var(--sand)}
+.reservation-unified .booking-step-4 .booking-container{z-index:4}
+.reservation-unified .booking-step-4 .booking-stepper li{background:rgb(244 232 200/.25)}
+.reservation-unified .booking-step-4 .booking-progress-fill{background:var(--turquoise)}
+.reservation-unified .booking-step-4>.site-footer{color:rgb(244 232 200/.8);margin-top:100px}
+@media(max-width:767px){.reservation-unified .booking-step-4>.site-footer{margin-top:48px}}
+@media(prefers-reduced-motion:reduce){.booking-progress-fill{transition:none}.reservation-unified .booking-progress-entering{animation:none}}

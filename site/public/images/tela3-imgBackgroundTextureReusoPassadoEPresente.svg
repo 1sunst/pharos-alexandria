@@ -1,0 +1,22 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="1440" height="1080" viewBox="0 0 1440 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Background texture / Reuso Passado e presente" opacity="0.52" clip-path="url(#clip0_0_45)">
+<g id="Group" opacity="0.2">
+<path id="Vector" d="M-6 202.8C34 202.8 42 150 77 150C107 150 113 189.6 91 195.6C74 200.4 65 181.2 77 169.2" stroke="#0E6172" stroke-width="7" stroke-linecap="round"/>
+<path id="Vector_2" d="M113 202.8C153 202.8 161 150 196 150C226 150 232 189.6 210 195.6C193 200.4 184 181.2 196 169.2" stroke="#0E6172" stroke-width="7" stroke-linecap="round"/>
+<path id="Vector_3" d="M232 202.8C272 202.8 280 150 315 150C345 150 351 189.6 329 195.6C312 200.4 303 181.2 315 169.2" stroke="#0E6172" stroke-width="7" stroke-linecap="round"/>
+</g>
+<g id="Group_2" opacity="0.16">
+<path id="Vector_4" d="M805 94.8H720L733 54H750L754 21.6H777L781 54H798L805 94.8ZM805 94.8H965V58.8H826L821 94.8" stroke="#0E6172" stroke-width="5"/>
+<path id="Vector_5" d="M851 60V94.8M884 60V94.8M917 60V94.8M950 60V94.8" stroke="#0E6172" stroke-width="5"/>
+<path id="Vector_6" d="M1070 94.8H985L998 54H1015L1019 21.6H1042L1046 54H1063L1070 94.8ZM1070 94.8H1230V58.8H1091L1086 94.8" stroke="#0E6172" stroke-width="5"/>
+<path id="Vector_7" d="M1116 60V94.8M1149 60V94.8M1182 60V94.8M1215 60V94.8" stroke="#0E6172" stroke-width="5"/>
+<path id="Vector_8" d="M1250 94.8H1335L1328 54H1311L1307 21.6H1284L1280 54H1263L1250 94.8Z" stroke="#0E6172" stroke-width="5"/>
+</g>
+<path id="Vector_9" opacity="0.13" d="M700 105.6H1440" stroke="#071925" stroke-width="3"/>
+</g>
+<defs>
+<clipPath id="clip0_0_45">
+<rect width="1440" height="1080" fill="white"/>
+</clipPath>
+</defs>
+</svg>

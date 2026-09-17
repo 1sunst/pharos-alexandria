@@ -1,0 +1,36 @@
+.home-entrance-root{display:contents}
+.home-explore-entrance-texture{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
+.home-entrance-enabled .home-experiences > .section-art{transform:translateX(-100%);opacity:0}
+.home-entrance-enabled .home-experiences[data-vectors-ready="true"] > .section-art{animation:experience-vector-arrive 1.8s cubic-bezier(.22,.61,.36,1) 1.6s both}
+@keyframes experience-vector-arrive{from{transform:translateX(-100%);opacity:0}to{transform:translateX(0);opacity:1}}
+@media(prefers-reduced-motion:reduce){.home-entrance-enabled .home-experiences > .section-art{animation:none!important;transform:none;opacity:1}}
+.home-entrance-enabled .explore-vector-left{transform:translateX(-560px);opacity:0}
+.home-entrance-enabled .explore-vector-right{transform:translateX(560px);opacity:0}
+.home-entrance-enabled [data-vectors-ready="true"] .explore-vector-left{animation:explore-arrive-left 1.8s cubic-bezier(.22,.61,.36,1) 1.6s both}
+.home-entrance-enabled [data-vectors-ready="true"] .explore-vector-right{animation:explore-arrive-right 1.8s cubic-bezier(.22,.61,.36,1) 1.6s both}
+@keyframes explore-arrive-left{from{transform:translateX(-560px);opacity:0}to{transform:translateX(0);opacity:1}}
+@keyframes explore-arrive-right{from{transform:translateX(560px);opacity:0}to{transform:translateX(0);opacity:1}}
+@media(prefers-reduced-motion:reduce){.home-entrance-enabled .explore-vector-left,.home-entrance-enabled .explore-vector-right{animation:none!important;transform:none;opacity:1}}
+.home-entrance-enabled [data-home-reveal]{opacity:0;transition:opacity .75s ease,translate .75s cubic-bezier(.22,.61,.36,1),transform .4s cubic-bezier(.22,.61,.36,1),color .35s ease,background .35s ease,border-color .45s ease;translate:0 12px}
+.home-entrance-enabled [data-home-visible="true"]{opacity:1;translate:0 0}
+.home-entrance-enabled [data-home-reveal="text"]{translate:none}
+.home-entrance-enabled .home-generated-word{opacity:0;filter:blur(4px);transition:opacity .65s ease,filter .65s ease;transition-delay:var(--word-delay,0ms)}
+.home-entrance-enabled [data-home-visible="true"] .home-generated-word{opacity:1;filter:blur(0)}
+.home-generated-word{display:inline}
+.home-practical .practical-list p > span{display:block}
+.home-practical .practical-list p .home-generated-word{display:inline}
+.home-practical .practical-list p{line-height:1.55}
+.home-practical .practical-list h3{line-height:1.4;margin-bottom:20px}
+.home-entrance-enabled .home-practical .map-art[data-home-visible="true"]{opacity:.12;translate:none}
+.navigation-compass .compass-north{left:50%;top:11%;transform:translate(-50%,-50%)}
+.navigation-compass .compass-south{left:50%;top:92.5%;transform:translate(-50%,-50%)}
+.navigation-compass .compass-east{left:96%;top:52%;transform:translate(-50%,-50%)}
+.navigation-compass .compass-west{left:4%;top:52%;transform:translate(-50%,-50%)}
+.home-entrance-enabled .home-hero [data-home-reveal]{transition-delay:var(--home-delay,0ms),var(--home-delay,0ms),0ms,0ms,0ms,0ms}
+.home-entrance-enabled .home-hero .home-generated-word{transition-delay:calc(var(--home-delay,0ms) + var(--word-delay,0ms))}
+.home-entrance-enabled .home-hero [data-home-reveal="text"][data-home-visible="true"]{opacity:1;transition:none}
+.home-entrance-enabled .home-hero [data-home-visible="true"] .home-generated-word{display:inline-block;transition:none;animation:hero-word-entrance .9s ease both;animation-delay:calc(var(--home-delay,0ms) + var(--word-delay,0ms))}
+@keyframes hero-word-entrance{from{opacity:0;filter:blur(5px);transform:translateY(6px)}to{opacity:1;filter:blur(0);transform:translateY(0)}}
+.home-entrance-enabled [data-home-reveal]:focus-within{opacity:1;translate:none}
+.home-entrance-enabled [data-home-reveal]:focus-within .home-generated-word{opacity:1;filter:none;transition-delay:0ms}
+@media(prefers-reduced-motion:reduce){.home-entrance-enabled [data-home-reveal],.home-entrance-enabled .home-generated-word{opacity:1;filter:none;translate:none;transition:none}.home-entrance-enabled .home-hero [data-home-visible="true"] .home-generated-word{animation:none}}

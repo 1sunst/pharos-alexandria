@@ -1,0 +1,24 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="1440" height="840" viewBox="0 0 1440 840" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Background texture / Reuso Experi&#195;&#170;ncias" opacity="0.46" clip-path="url(#clip0_0_23)">
+<g id="Group" opacity="0.17">
+<path id="Vector" d="M-10 290.769V387.692H44V310.154H10V368.308H27V331.154" stroke="#071925" stroke-width="8"/>
+<path id="Vector_2" d="M-10 395.769V492.692H44V415.154H10V473.308H27V436.154" stroke="#071925" stroke-width="8"/>
+<path id="Vector_3" d="M1396 290.769V387.692H1450V310.154H1416V368.308H1433V331.154" stroke="#071925" stroke-width="8"/>
+<path id="Vector_4" d="M1396 395.769V492.692H1450V415.154H1416V473.308H1433V436.154" stroke="#071925" stroke-width="8"/>
+</g>
+<g id="Group_2" opacity="0.22">
+<path id="Vector_5" d="M-5 778.615C38 738.231 81 738.231 124 778.615C167 819 210 819 253 778.615C296 738.231 339 738.231 382 778.615C425 819 468 819 511 778.615" stroke="#0E6172" stroke-width="7"/>
+<path id="Vector_6" d="M-5 778.615C38 819 81 819 124 778.615C167 738.231 210 738.231 253 778.615C296 819 339 819 382 778.615C425 738.231 468 738.231 511 778.615" stroke="#0E6172" stroke-width="7"/>
+<path id="Vector_7" d="M509 778.615C552 738.231 595 738.231 638 778.615C681 819 724 819 767 778.615C810 738.231 853 738.231 896 778.615C939 819 982 819 1025 778.615" stroke="#0E6172" stroke-width="7"/>
+<path id="Vector_8" d="M509 778.615C552 819 595 819 638 778.615C681 738.231 724 738.231 767 778.615C810 819 853 819 896 778.615C939 738.231 982 738.231 1025 778.615" stroke="#0E6172" stroke-width="7"/>
+<path id="Vector_9" d="M1023 778.615C1066 738.231 1109 738.231 1152 778.615C1195 819 1238 819 1281 778.615C1324 738.231 1367 738.231 1410 778.615C1453 819 1496 819 1539 778.615" stroke="#0E6172" stroke-width="7"/>
+<path id="Vector_10" d="M1023 778.615C1066 819 1109 819 1152 778.615C1195 738.231 1238 738.231 1281 778.615C1324 819 1367 819 1410 778.615C1453 738.231 1496 738.231 1539 778.615" stroke="#0E6172" stroke-width="7"/>
+</g>
+<path id="Vector_11" opacity="0.16" d="M0 747.115H1440M0 829.5H1440" stroke="#071925" stroke-width="3"/>
+</g>
+<defs>
+<clipPath id="clip0_0_23">
+<rect width="1440" height="840" fill="white"/>
+</clipPath>
+</defs>
+</svg>

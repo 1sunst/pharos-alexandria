@@ -1,0 +1,50 @@
+/* Shared fill motion: the overlay never covers labels or changes layout. */
+.text-link{display:inline-flex;align-items:center;gap:10px;width:fit-content;font-size:12px;font-weight:600;line-height:1.5;text-transform:uppercase;color:var(--mediterranean);padding:8px 0;transition:color .35s ease}
+.text-link svg{flex-shrink:0;transition:transform .35s ease}
+.text-link:hover svg{transform:translateX(3px)}
+.level-list .text-link,.practical-list .text-link{color:var(--turquoise);margin-top:28px}
+.home-closing .closing-copy>div{align-items:center}
+.home-closing .text-link{color:var(--sand);white-space:nowrap;font-size:15px}
+@media(max-width:767px){.home-closing .closing-copy>div{align-items:flex-start}}
+@media(prefers-reduced-motion:reduce){.text-link,.text-link svg{transition:none}}
+body .button{--button-base:var(--sun);--button-fill:var(--turquoise);position:relative;isolation:isolate;overflow:hidden}
+body .button.secondary{--button-base:var(--mediterranean);--button-fill:var(--turquoise)}
+body .button:hover:not(:disabled){background:var(--button-base)!important}
+body .button::before,.carousel-controls button::before,.detail-gallery-controls button::before{content:"";position:absolute;inset:0;border-radius:inherit;background:var(--button-fill,var(--sun));z-index:-1;transform:scaleX(0);transform-origin:left;transition:transform .45s cubic-bezier(.22,.61,.36,1);pointer-events:none}
+body .button:hover:not(:disabled)::before,.carousel-controls button:hover::before,.detail-gallery-controls button:hover::before{transform:scaleX(1)}
+body .button.secondary:hover:not(:disabled){color:var(--navy)}
+.carousel-controls button,.detail-gallery-controls button{position:relative;isolation:isolate;overflow:hidden;transition:transform .35s ease,color .35s ease}
+.carousel-controls button.active,.detail-gallery-controls button:nth-child(2){--button-fill:var(--turquoise)}
+.carousel-controls button:hover,.detail-gallery-controls button:hover{transform:translateY(-2px);color:var(--navy)}
+.carousel-controls button:active,.detail-gallery-controls button:active{transform:translateY(0) scale(.98)}
+/* The exact Figma curve replaces the previous polygon approximation. */
+body .home-card-image::after,body .card-image::after{clip-path:none;background:url('/images/card-organic-wave.svg') center/100% 100% no-repeat;height:91px}
+.home-card,.xp-card,.experience-card,.discovery-images figure{transition:transform .4s cubic-bezier(.22,.61,.36,1)}
+@media(hover:hover) and (pointer:fine){.home-card:hover,.xp-card:hover,.experience-card:hover,.discovery-images figure:hover{transform:translateY(-3px)}}
+@media(prefers-reduced-motion:reduce){
+ body .button::before,.carousel-controls button::before,.detail-gallery-controls button::before{transition:none}
+ body .button:hover,.carousel-controls button:hover,.detail-gallery-controls button:hover,.home-card:hover,.xp-card:hover,.experience-card:hover,.discovery-images figure:hover{transform:none}
+}
+/* Matching fill and stroke, including the previously transparent arrow. */
+body .carousel-controls button:hover,body .detail-gallery-controls button:hover{border-color:var(--button-fill,var(--sun))}
+body .carousel-controls button,body .detail-gallery-controls button{transition:transform .35s ease,color .35s ease,border-color .45s ease}
+.carousel-controls button:disabled{cursor:default}
+.sliding-photos{position:relative;--slide-distance:100%}
+.sliding-photos.slide-backward{--slide-distance:-100%}
+.sliding-photos img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.sliding-photos .slide-outgoing{z-index:1}
+.sliding-photos .slide-incoming{z-index:2}
+.sliding-photos:has(.slide-outgoing):not(.is-sliding) .slide-incoming{visibility:hidden}
+.sliding-photos.is-sliding .slide-incoming{animation:pharos-slide-in .6s cubic-bezier(.22,.61,.36,1) both}
+.sliding-photos.is-sliding .slide-outgoing{animation:pharos-slide-out .6s cubic-bezier(.22,.61,.36,1) both}
+@keyframes pharos-slide-in{from{transform:translateX(var(--slide-distance))}to{transform:translateX(0)}}
+@keyframes pharos-slide-out{from{transform:translateX(0)}to{transform:translateX(calc(-1 * var(--slide-distance)))}}
+@media(prefers-reduced-motion:reduce){.sliding-photos.is-sliding img{animation:none!important}}
+/* Image lift follows the same small displacement as the experience cards. */
+.xp-hero-photo,.history-hero-photo,.rebuild-columns>div>img,.architecture-photo{transition:transform .4s cubic-bezier(.22,.61,.36,1)}
+@media(hover:hover) and (pointer:fine){.xp-hero-photo:hover,.history-hero-photo:hover,.rebuild-columns>div>img:hover,.architecture-photo:hover{transform:translateY(-3px)}}
+@media(prefers-reduced-motion:reduce){.xp-hero-photo:hover,.history-hero-photo:hover,.rebuild-columns>div>img:hover,.architecture-photo:hover{transform:none}}
+/* Reservation progress is deliberately static until its motion is rebuilt. */
+body .booking-stepper li{background:rgb(14 97 114/.25);animation:none;transition:none}
+body .booking-stepper li.done{background:var(--mediterranean)}
+body .booking-stepper li::before{content:none;animation:none;transition:none}

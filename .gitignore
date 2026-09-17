@@ -1,0 +1,4 @@
+# Publish only the application, not workspace materials or tool state.
+/*
+!/.gitignore
+!/site/

@@ -1,0 +1,22 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="1440" height="900" viewBox="0 0 1440 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Background texture / Reserva etapa 1" opacity="0.2" clip-path="url(#clip0_0_25)">
+<g id="Group" opacity="0.2">
+<path id="Vector" d="M-6 169C34 169 42 125 77 125C107 125 113 158 91 163C74 167 65 151 77 141" stroke="#0E6172" stroke-width="7" stroke-linecap="round"/>
+<path id="Vector_2" d="M113 169C153 169 161 125 196 125C226 125 232 158 210 163C193 167 184 151 196 141" stroke="#0E6172" stroke-width="7" stroke-linecap="round"/>
+<path id="Vector_3" d="M232 169C272 169 280 125 315 125C345 125 351 158 329 163C312 167 303 151 315 141" stroke="#0E6172" stroke-width="7" stroke-linecap="round"/>
+</g>
+<g id="Group_2" opacity="0.16">
+<path id="Vector_4" d="M805 79H720L733 45H750L754 18H777L781 45H798L805 79ZM805 79H965V49H826L821 79" stroke="#0E6172" stroke-width="5"/>
+<path id="Vector_5" d="M851 50V79M884 50V79M917 50V79M950 50V79" stroke="#0E6172" stroke-width="5"/>
+<path id="Vector_6" d="M1070 79H985L998 45H1015L1019 18H1042L1046 45H1063L1070 79ZM1070 79H1230V49H1091L1086 79" stroke="#0E6172" stroke-width="5"/>
+<path id="Vector_7" d="M1116 50V79M1149 50V79M1182 50V79M1215 50V79" stroke="#0E6172" stroke-width="5"/>
+<path id="Vector_8" d="M1250 79H1335L1328 45H1311L1307 18H1284L1280 45H1263L1250 79Z" stroke="#0E6172" stroke-width="5"/>
+</g>
+<path id="Vector_9" opacity="0.13" d="M700 88H1440" stroke="#071925" stroke-width="3"/>
+</g>
+<defs>
+<clipPath id="clip0_0_25">
+<rect width="1440" height="900" fill="white"/>
+</clipPath>
+</defs>
+</svg>

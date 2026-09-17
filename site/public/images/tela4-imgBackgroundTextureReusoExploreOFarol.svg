@@ -1,0 +1,22 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="1440" height="900" viewBox="0 0 1440 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Background texture / Reuso Explore o Farol" opacity="0.52" clip-path="url(#clip0_0_102)">
+<g id="Vector">
+</g>
+<g id="Group" opacity="0.075">
+<path id="Vector_2" d="M-165 177.404C-74 97.7885 18 97.7885 109 177.404C200 257.019 292 257.019 383 177.404" stroke="#35C9D0" stroke-width="7" stroke-linecap="round"/>
+<path id="Vector_3" d="M-165 177.404C-74 257.019 18 257.019 109 177.404C200 97.7885 292 97.7885 383 177.404" stroke="#35C9D0" stroke-width="7" stroke-linecap="round"/>
+<path id="Vector_4" d="M1057 688.846C1148 609.231 1240 609.231 1331 688.846C1422 768.462 1514 768.462 1605 688.846" stroke="#35C9D0" stroke-width="7" stroke-linecap="round"/>
+<path id="Vector_5" d="M1057 688.846C1148 768.462 1240 768.462 1331 688.846C1422 609.231 1514 609.231 1605 688.846" stroke="#35C9D0" stroke-width="7" stroke-linecap="round"/>
+</g>
+<g id="Group_2" opacity="0.08">
+<path id="Vector_6" d="M-140 103.846H385M1055 762.404H1580" stroke="#F0B52E" stroke-width="2"/>
+<path id="Vector_7" d="M-140 250.962H385M1055 615.288H1580" stroke="#F0B52E" stroke-width="2"/>
+</g>
+<path id="Vector_8" opacity="0.08" d="M1396 211.154C1449.02 211.154 1492 173.959 1492 128.077C1492 82.1948 1449.02 45 1396 45C1342.98 45 1300 82.1948 1300 128.077C1300 173.959 1342.98 211.154 1396 211.154Z" stroke="#F4E8C8" stroke-dasharray="2 12"/>
+</g>
+<defs>
+<clipPath id="clip0_0_102">
+<rect width="1440" height="900" fill="white"/>
+</clipPath>
+</defs>
+</svg>
