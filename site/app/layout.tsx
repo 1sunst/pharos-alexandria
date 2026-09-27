@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import NavigationPosition from '@/components/NavigationPosition';
+import { LanguageProvider } from '@/components/LanguageSwitcher';
 import "./globals.css";
 import "./chrome.css";
 import "./microinteractions.css";
@@ -24,7 +25,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
-      <body className="antialiased"><NavigationPosition/>{children}</body>
+      <body className="antialiased"><LanguageProvider><NavigationPosition/>{children}</LanguageProvider></body>
     </html>
   );
 }
