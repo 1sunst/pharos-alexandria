@@ -4,4 +4,6 @@
 /* Preserve the 420 × 520 hero card ratio from Tela 2 at every viewport. */
 .history-page .history-hero-photo{height:auto;aspect-ratio:420/520}
 .history-page .history-hero-photo img{max-width:none}
+
+@media(max-width:767px){.history-page .history-hero{padding-bottom:112px}}
 @media(min-width:1351px){.history-hero-copy{width:850px}}
