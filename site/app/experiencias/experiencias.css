@@ -26,3 +26,4 @@
  .xp-page .xp-card .button{position:static;align-self:flex-end;margin-top:auto;flex-shrink:0}
  .xp-page .xp-price{margin-bottom:24px}
 }
+@media(min-width:768px){.xp-ending-photo{width:min(44.444%,640px);object-fit:contain;object-position:right top}}

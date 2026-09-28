@@ -8,3 +8,4 @@
 
 @media(max-width:767px){.history-page .history-hero{padding-bottom:112px}.history-page .history-hero-photo{height:auto;aspect-ratio:420/520}}
 @media(min-width:1351px){.history-hero-copy{width:850px}}
+@media(min-width:768px){.history-ending-photo{width:min(44.44%,640px);object-fit:contain;object-position:right top}}
