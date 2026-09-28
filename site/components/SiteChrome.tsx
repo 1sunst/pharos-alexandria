@@ -4,7 +4,7 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { useCallback, useEffect, useRef, useState } from "react";
 import {createPortal} from 'react-dom';
-import { LanguageSwitcher } from "./LanguageSwitcher";
+import { LanguageSwitcher, useLanguage } from "./LanguageSwitcher";
 
 export function Header({ dark = true }: { dark?: boolean }) {
   const [open, setOpen] = useState(false);
@@ -49,9 +49,12 @@ export function Header({ dark = true }: { dark?: boolean }) {
 }
 
 export function Footer({ light = false, imageContrast = false }: { light?: boolean; imageContrast?: boolean }) {
+  const {language}=useLanguage();
+  const location=language==='en'?'PHAROS ISLAND · EASTERN HARBOUR · ALEXANDRIA, EGYPT':'ILHA DE PHAROS · PORTO ORIENTAL · ALEXANDRIA, EGITO';
+  const contrastStart=language==='en'?location.indexOf('EASTERN'):location.indexOf('RIENTAL')+1;
   return <footer className={`site-footer ${light ? "footer-light" : ""}`}>
     <Link className="footer-faq" href="/duvidas-frequentes">Dúvidas frequentes</Link>
-    <span>© 2028 PHAROS / ALEXANDRIA · @PHAROS.ALEXANDRIA</span><span>ILHA DE PHAROS · PORTO O{imageContrast?<><span className="footer-image-contrast">RIENTAL · ALEXANDRIA, EGITO</span></>:<>RIENTAL · ALEXANDRIA, EGITO</>}</span>
+    <span>© 2028 PHAROS / ALEXANDRIA · @PHAROS.ALEXANDRIA</span><span>{imageContrast?<><span>{location.slice(0,contrastStart)}</span><span className="footer-image-contrast">{location.slice(contrastStart)}</span></>:location}</span>
     <span className="socials">{[['Instagram','Instagram'],['X','XOfficial'],['LinkedIn','LinkedIn'],['YouTube','YouTube']].map(([name,asset])=>imageContrast?<span key={name} className="social-image-contrast" role="img" aria-label={name} style={{maskImage:`url(/images/tela2-imgSocial${asset}.svg)`}}/>:<img key={name} src={`/images/tela2-imgSocial${asset}.svg`} alt={name} width={18} height={18}/>)}</span>
   </footer>;
 }
