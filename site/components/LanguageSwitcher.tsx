@@ -68,7 +68,23 @@ const reverse=Object.fromEntries(Object.entries(copy).map(([pt,en])=>[en,pt]));
 const copyInsensitive=new Map(Object.keys(copy).map(key=>[key.toLocaleLowerCase("pt-BR"),key]));
 const reverseInsensitive=new Map(Object.keys(reverse).map(key=>[key.toLocaleLowerCase("en"),key]));
 function translated(text:string,language:Language){const raw=text.trim();const key=language==="en"?(copyInsensitive.get(raw.toLocaleLowerCase("pt-BR"))??raw):(reverseInsensitive.get(raw.toLocaleLowerCase("en"))??raw);let value=language==="en"?copy[key]:reverse[key];if(!value&&language==="en"){value=raw.replace(/RESERVA \/ ETAPA (\d) DE 4/i,"BOOKING / STEP $1 OF 4").replace(/(\d+) adultos?/i,"$1 adults").replace(/(\d+) jovens?/i,"$1 young people").replace(/(\d+) crianças?/i,"$1 children")}if(!value)return text;return `${text.match(/^\s*/)?.[0]??""}${value}${text.match(/\s*$/)?.[0]??""}`}
+function translateAnimatedLine(line:HTMLElement,language:Language){
+ const spans=Array.from(line.querySelectorAll<HTMLElement>(":scope > .home-generated-word"));
+ if(!spans.length)return;
+ const current=spans.map(span=>span.textContent?.trim()).filter(Boolean).join(" ");
+ const original=line.dataset.i18nOriginal??copyInsensitive.get(current.toLocaleLowerCase("pt-BR"))??reverse[reverseInsensitive.get(current.toLocaleLowerCase("en"))??""];
+ if(!original)return;
+ line.dataset.i18nOriginal=original;
+ const target=language==="en"?copy[original]:original;
+ if(!target)return;
+ const words=target.split(/\s+/);
+ spans.forEach((span,index)=>{span.textContent=index===spans.length-1?words.slice(index).join(" "):(words[index]??"")});
+}
 function translateAnimatedElement(element:HTMLElement,language:Language){
+ if(element.matches(".practical-list p")){
+  const lines=Array.from(element.querySelectorAll<HTMLElement>(":scope > span"));
+  if(lines.length){lines.forEach(line=>translateAnimatedLine(line,language));return;}
+ }
  const spans=Array.from(element.querySelectorAll<HTMLElement>(":scope .home-generated-word"));
  if(!spans.length)return;
  const current=spans.map(span=>span.textContent?.trim()).filter(Boolean).join(" ");
